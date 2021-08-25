@@ -1,0 +1,41 @@
+<div class="container">
+    <div *ngFor="let item of vetor.articles" class="card">
+
+        <img class="card-img-top" src="{{item.urlToImage}}">
+        <div class="card-body">
+            <h5 class="card-title">
+                {{item.title}}
+            </h5>
+            <p class="card-text">
+                {{item.description}}
+            </p>
+            <a href="{{item.url}}" large>Read full article</a>
+        </div>
+    </div>
+</div>
+
+<!-- <input type="text" class="border border-primary" [(ngModel)]= "nome"/>
+<h3>
+     {{nome}}
+    
+    <ng-container *ngIf="number1 > 500; else elseTemplate">
+        <p class="primary">{{number1 | currency:"BRL"}}</p>
+    
+    ></ng-container>
+    
+    <ng-template #elseTemplate>
+     
+        <p class="warning"> Valor Muito Baixo</p>
+    </ng-template>
+     <p class="primary">{{number1 | currency:"BRL"}}</p>
+
+
+
+
+</h3> -->
+
+
+
+
+
+

@@ -1,12 +1,12 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
   "cli": {
-    "analytics": "cc849401-c41b-425f-9cc5-d58975150bd8"
+    "analytics": "9426d2a2-6c58-4dc0-b34d-0c4ae9170742"
   },
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "app": {
+    "news-feed": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:application": {
@@ -20,7 +20,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/app",
+            "outputPath": "dist/news-feed",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -30,6 +30,8 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/ngx-bootstrap/datepicker/bs-datepicker.css",
+              "./node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -71,10 +73,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "app:build:production"
+              "browserTarget": "news-feed:build:production"
             },
             "development": {
-              "browserTarget": "app:build:development"
+              "browserTarget": "news-feed:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -82,7 +84,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "app:build"
+            "browserTarget": "news-feed:build"
           }
         },
         "test": {
@@ -105,5 +107,5 @@
       }
     }
   },
-  "defaultProject": "app"
+  "defaultProject": "news-feed"
 }
