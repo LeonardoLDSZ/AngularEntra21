@@ -1,12 +1,19 @@
+<<<<<<< HEAD
   
 <h1>News Feed</h1>
+=======
+<h1>News Feed</h1>
+
+>>>>>>> f9a5aa230bec81b4c76678ea53ad8e88f9d6aebd
 <div class="container">
+  
 <div *ngFor="let item of response.articles"> 
     <div class="card" style="width: 18rem;">
         <img class="card-img-top" 
         src="{{ item.urlToImage }}" 
         alt="Imagem de capa do card">
         <div class="card-body">
+          
           <h5 class="card-title">{{ item.title }}</h5>
           <p class="card-text">{{ item.description }}
 
@@ -14,6 +21,7 @@
           <a href="{{ item.url }}" class="btn btn-primary" target="_blank">Visitar</a>
         </div>
     </div>
+    
 
     
 </div>

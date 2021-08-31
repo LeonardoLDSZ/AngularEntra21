@@ -12,7 +12,10 @@ h1{
     background-image: url("../assets/pexels-cátia-matos-1072179.jpg");
     border-radius: 4px;
     padding-bottom: 10px;
+<<<<<<< HEAD
     padding-left: 70px;
+=======
+>>>>>>> f9a5aa230bec81b4c76678ea53ad8e88f9d6aebd
 }
 .btn {
     background-color:darkslategray;
@@ -21,4 +24,9 @@ h1{
     }
 a:hover{
     background-color:orangered;    
+<<<<<<< HEAD
 }
+=======
+}
+
+>>>>>>> f9a5aa230bec81b4c76678ea53ad8e88f9d6aebd
