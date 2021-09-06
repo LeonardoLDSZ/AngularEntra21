@@ -1,9 +1,11 @@
+
 h1{
-    font-weight: bold;
+    font-weight:bolder;
     text-align: center;
     background-color:darkslategray;
     padding-bottom: 2px;
     color: white;
+    
 }
 .container {
     display:grid;
@@ -12,10 +14,7 @@ h1{
     background-image: url("../assets/pexels-cátia-matos-1072179.jpg");
     border-radius: 4px;
     padding-bottom: 10px;
-<<<<<<< HEAD
     padding-left: 70px;
-=======
->>>>>>> f9a5aa230bec81b4c76678ea53ad8e88f9d6aebd
 }
 .btn {
     background-color:darkslategray;
@@ -23,10 +22,7 @@ h1{
     border-color: grey;    
     }
 a:hover{
-    background-color:orangered;    
-<<<<<<< HEAD
-}
-=======
+    background-color:yellowgreen;    
 }
 
->>>>>>> f9a5aa230bec81b4c76678ea53ad8e88f9d6aebd
+
