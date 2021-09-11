@@ -7,11 +7,15 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FeedComponent } from './feed/feed.component';
+import { UserFormComponent } from './user-form/user-form.component';
+import { UserComponent } from './user/user.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    FeedComponent
+    FeedComponent,
+    UserFormComponent,
+    UserComponent
   ],
   imports: [
     BrowserModule,
