@@ -1,11 +1,10 @@
 
-/* h1{
+ h1{
     font-weight:bolder;
     text-align: center;
     background-color:darkslategray;
     padding-bottom: 2px;
     color: white;
-    
 }
 .container {
     display:grid;
@@ -23,15 +22,7 @@
     }
 a:hover{
     background-color:yellowgreen;    
-} */
-
-
-  
-.container{
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));
-    grid-gap: 20px;
-    background-image:url("../assets/background.webp");
 }
 
 
+ 

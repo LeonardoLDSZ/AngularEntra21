@@ -1,12 +1,7 @@
-// export class Response {
-//     status: string ="";
-//     totalResults: number =0;
-//     articles: any[] | undefined;
-// }
-
-
 export class Response {
     status: string ="";
     totalResults: number =0;
-    articles?: any[] ;
+    articles: any[] | undefined;
 }
+
+
